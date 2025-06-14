@@ -1,0 +1,96 @@
+.container {
+  max-width: 960px;
+}
+body{
+font-family:Franklin Gothic Heavy;
+background-color: #f5ebfa;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background: linear-gradient(to right, #1b0263, #ab06f7);
+  
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+.navbar{
+  color:white;
+  background: linear-gradient(to right, #1b0263, #ab06f7);
+}
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  color: bisque;
+  background-image: url('../img/font2.jpeg');
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #4b2ba1;
+}
+
+h2{
+  color: aliceblue;
+}
+#h2{
+  color: black;
+  margin-left: 12px;
+}
+#h22{
+  color: black;
+}
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+#btn{
+  background: linear-gradient(to right, #1b0263, #ab06f7);
+  color: aliceblue;
+}
+.last{
+  background: linear-gradient(to right, #1b0263, #ab06f7);
+  color: aliceblue;
+  margin-top: 15px;
+}

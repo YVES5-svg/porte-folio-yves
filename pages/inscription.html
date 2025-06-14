@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <link rel="icon" href="../img/"/>
+    <title>YvesFofou</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/product/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../pages/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      a{
+        text-decoration: none;
+        color: azure;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    #id
+    {
+      background: linear-gradient(to right, #1b0263, #ab06f7);
+
+    }
+    #id:hover
+    {
+      
+      background: linear-gradient(to right, #ab06f7, #1b0263);
+      cursor: pointer;
+      transition: 1s ease-in-out;
+    }
+    #m1:hover{
+      transition: 0.4s ease-in-out;
+color: red;
+
+    }
+    #m2:hover{
+color: red;
+
+    }
+    #m3:hover{
+color: red;
+
+    }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="../pages/product.css" rel="stylesheet">
+    <link href="../pages/signin.css" rel="stylesheet">
+  </head>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+      <div class="container-fluid">
+        <img src="../img/logo.png"width="80px" class="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item" >
+              <a class="nav-link active"  href="../index.html"id="m1" ><i class="fa-solid fa-home" ></i> Acceuil</a>
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link active"  href="#"id="m1" style=""><i class="fa-solid fa-person-circle-question" ></i>  Qui est Fofou Yves ? </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="competence.html"id="m2"><i class="fa-solid fa-lightbulb "></i>  compétences </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="sercice.html" tabindex="-1" aria-disabled="true"id="m3"><i class="fa-solid fa-tools "></i>   Services & Tarifs </a>
+            </li>
+          </ul>
+          <div id="infos">
+            <i class="fa-brands fa-whatsapp fa-beat-fade fa-2xl" style="color: #63E6BE;"></i><span> |+237 695730679  </span>    
+            <i class="fa-brands fa-facebook fa-beat-fade fa-2xl" style="color: #74C0FC;"></i><span> |fofou yves officiel  </span>
+          </div>  
+         
+        </div>
+      </div>
+    </nav>
+       
+
+
+  </header>
+
+
+    <main class="form-signin">
+        
+  <form method="post" action="inscrit.php">
+    <img class="mb-4 mx-auto d-block" src="../img/logo.png" alt="" width="102" height="87">
+    <h1 class="h3 mb-3 fw-normal">veillez vous aboner</h1>
+ <div class="form-floating">
+      <input type="text" class="form-control" id="floatingInput" placeholder="Nom prenom" name="nom_complet">
+      <label for="floatingInput">Nom complet</label>
+    </div>
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="mail">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name='password'>
+      <label for="floatingPassword">Password</label>
+    </div>
+
+    <div class="checkbox mb-3">
+     <a class="link-primary" href="connexion.html">je suis deja abonne</a>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit" id="btn"><i class="fa-solid fa-right-to-bracket fa-flip"></i> S'aboner</button>
+    <p class="mt-5 mb-3 text-muted">&copy; yvesfofou.com 06-2025</p>
+  </form>
+</main>
+
+    
+    <div class="last">
+      <footer class="container py-5" id="footer">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img src="../logo.png"width="80px">
+            <small class="d-block mb-3 ">&copy; Fofouyves 04-2025</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Coordonnees</h5><hr>
+            <ul class="list-unstyled text-small">
+              <li><i class="fa-brands fa-facebook" style="color: #74C0FC;"></i>  FofouyvesOfficiel</li>
+              <li><i class="fa-brands fa-twitter" style="color: #74C0FC;"></i>  @Foufouyves</li>
+              <li>  <i class="fa-solid fa-phone" style="color: #74C0FC;"></i>  +237 695730679</li>
+              <li> <i class="fa-brands fa-whatsapp" style="color: #63E6BE;"></i> +237 677675264</li>
+              <li><i class="fa-brands fa-google" style="color: #FFD43B;"></i> yve5@gmail.com</li>
+              <li><i class="fa-solid fa-location-dot" style="color: #74C0FC;"></i> Yaounde-cameroun</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Navigation</h5><hr>
+            <ul class="list-unstyled text-small">
+              
+              <li><a class="link" href="../index.html"><i class="fa-solid fa-home" ></i> Acceuil</a></li>
+              <li><a class="link" href="fofou.html"> <i class="fa-solid fa-person-circle-question" style=""></i> qui est Fofou yves</a></li>
+              <li><a class="link" href="competence.html"><i class="fa-solid fa-lightbulb "></i> Competences</a></li>
+              <li><a class="link" href="sercice.html"><i class="fa-solid fa-tools "></i> services&tarifs</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>A propos</h5><hr>
+            <ul class="list-unstyled text-small">
+              <li><a class="link" href="politic.html"><i class="fa-solid fa-check-to-slot"></i> Politique interne</a></li>
+              <li><a class="link" href="politic.html"><i class="fa-solid fa-handshake"></i> regles de gestion</a></li>
+              <li><a class="link" href="politic.html"> <i class="fa-solid fa-circle-info"></i> Confidentailites</a></li>
+              
+              
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>commentaires</h5><hr>
+            <form action="post" method="traitement.php">
+            <ul class="list-unstyled text-small">
+             
+              <div class="col-12">
+                <label for="email" class="form-label">Email <span class="text-muted"></span></label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+      
+              <div class="container mt-4">
+                <label for="messageInput" class="form-label">Votre message</label>
+                <textarea class="form-control" id="messageInput" rows="4" placeholder="Écrivez votre message ici"></textarea>
+            </div>
+            <p></p>
+              <button class="w-100 btn btn-primary btn-lg" type="submit"><i class="fa-solid fa-file-import fa-fade fa-lg" style="color: #f4f5f6;"></i> Envoyer</button>
+            </ul>
+          </form>
+          </div>
+        </div>
+      </footer>
+      </div>
+
+    <script src="../pages/bootstrap.bundle.min.js"></script>
+    <script src="../pages/index.js"></script>
+  </body>
+</html>
